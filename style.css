@@ -1,0 +1,74 @@
+/* BODY */
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  width: 100vw;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.header-title {
+  font-size: 1em;
+}
+
+.header-image {
+  max-width: 400px;
+  width: 100%;
+  margin: 1em auto;
+}
+
+.header-image img {
+  width: 100%;
+}
+
+/* MAIN */
+.main {
+  width: 90%;
+  margin: 1em auto;
+}
+
+/* FORM */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-form * {
+  margin: 0.5em;
+}
+
+/* NASA IMAGES */
+.nasa-images {
+  width: 90%;
+  margin: 1em auto;
+}
+
+.nasa-image {
+  max-width: 200px;
+  width: 100%;
+  margin: 0.5em;
+  display: inline-block;
+  border-radius: 1em;
+}
+
+.nasa-image img {
+  width: 100%;
+  border-radius: 1em;
+}
